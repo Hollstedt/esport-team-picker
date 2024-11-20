@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 7rem;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Electrolize", sans-serif;
+  height: 100vh;
+}
+body main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+body main .playerInfoWrapper {
+  display: flex;
+  flex-direction: column;
+}
+body main .playerInfoWrapper .article-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+body main .playerInfoWrapper .player-add-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+body main .playerInfoWrapper .player-add-wrapper input {
+  padding: 5px;
+}
+body main .playerInfoWrapper .player-add-wrapper button {
+  margin-left: 10px;
+  padding: 5px 4px;
+}
+body main .playerInfoWrapper .teamName h2 {
+  text-align: center;
+}
+body main .playerInfoWrapper article {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 300px;
+  padding: 15px 30px;
+  background: rgb(26, 26, 26);
+  outline: 1px solid white;
+  color: white;
+}
+body main .playerInfoWrapper article h2 {
+  margin-bottom: 20px;
+}
+body main .playerInfoWrapper article .teamInfo {
+  width: 100%;
+}
+body main .playerInfoWrapper article .teamInfo ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+body main .playerInfoWrapper article .teamInfo ul li button {
+  padding: 2px 4px;
+  font-size: 12px;
+}
+body main .playerInfoWrapper article .teamInfo ul li button:nth-child(1) {
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
